@@ -1,0 +1,122 @@
+body {
+	color: #000; /* cor do texto */
+	background-color: #fff;
+	background-image: url("img_inicio_local/fundo_topo.png");
+	background-repeat: repeat-x;
+	margin-top: 150px;
+	line-height: 18px;
+}
+a:link {
+	color: #468966;
+	font-weight: bold;
+}
+a:visited {
+	color: #df886a;
+	font-weight: bold;
+}
+a:hover {
+	color: #a1b06a;
+	font-weight: bold;
+}
+h1 {
+	font-size: 36px;
+	color: #77ad78;
+	border-bottom: solid medium #6f8f72;
+	line-height: 36px;
+}
+h2 {
+	font-size: 22px;
+	color: #468966;
+	font-style: italic;
+	text-align: right;
+}
+h3 {
+	font-size: 16px;
+	color: #fff;
+	background-color: #a1b06a;
+}
+#estrutura {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu {
+	background-image: url("img_inicio_local/logotipo_manaus.png");
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	padding-top: 110px;
+	padding-bottom: 30px;
+	padding-left: 290px;
+}
+#menu p a:link {
+	font-weight: bold;
+	color: #fff;
+	background-color: #468966;
+	padding: 5px;
+	text-decoration: none;
+}
+#menu p a:visited {
+	font-weight: bold;
+	color: #fff;
+	background-color: #468966;
+	padding: 5px;
+	text-decoration: none;
+}
+#menu p a:hover {
+	font-weight: bold;
+	color: #a1b06a;
+	background-color: #504b43;
+	padding: 5px;
+	text-decoration: none;	
+}
+
+img {
+
+	padding: 25px;
+	border: solid 1px #468966;
+	background-color:#a1b06a ;
+}
+.caixa_texto {
+	text-align: justify;
+	text-indent: 25px;
+}
+table {
+	border: solid thin #a6200c;
+}
+caption {
+	font-weight: bold;
+	color: #fff;
+	background-color: #2a2e24;
+	padding: 5px;
+}
+th {
+	color: #fff;
+	background-color: #468966;
+	text-align: left;
+	padding: 5px;
+}
+td {
+	background-color: #a1b06a;
+	padding: 5px;
+	border-top: solid 1px #a6200c;  
+}
+li {
+	list-style-image: url("img_inicio_local/lista.png");
+	list-style-position: inside;
+}
+#box {
+	font-weight: bold;
+	color: #a6200c;
+	background-color: #a1b06a;
+	background-image: url("img_inicio_local/fundo_listrado.gif");
+	width: 673px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.destaque {
+	font-weight: 14px;
+	color: #fff;
+	background-color: #a6200c;
+}
